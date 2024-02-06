@@ -23,6 +23,10 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#clear:hover, #convert:hover {
+    cursor: pointer;
+}
+
 #convert {
     width: 200px;
     border: 2px solid #219ebc;
@@ -68,11 +72,14 @@ input {
 
 #calc {
     width: 500px;
-    height: 30px;
+    height: 50px;
     border: 2px solid #022B3A;
     border-radius: 20px;
     padding: 20px;
     margin: auto;
     grid-column: 1 / span 5;
     text-align: right;
+    align-self: center;
+    justify-self: center;
 }
+
