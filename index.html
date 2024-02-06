@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> JavaScript Calculator </title>
+    <title> JavaScript Currency Convertor </title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,29 +12,35 @@
 </head>
 
 <body>
-    <h1> Calculator Program in JavaScript </h1>
+    <h1> Currency Convertor in JavaScript </h1>
     <div class="formstyle">
         <form name="form1">
             <input id="calc" type="text" name="answer">
             <input type="button" value="1" onclick="form1.answer.value += '1' ">
             <input type="button" value="2" onclick="form1.answer.value += '2' ">
             <input type="button" value="3" onclick="form1.answer.value += '3' ">
-            <input type="button" value="+" onclick="form1.answer.value += '+' ">
+            <input type="button" value="&#8377;" onclick="form1.answer.value += '&#8377;' ">
+            <input type="button" value="&#x20BD;" onclick="form1.answer.value += '&#x20BD;' ">
             <input type="button" value="4" onclick="form1.answer.value += '4' ">
             <input type="button" value="5" onclick="form1.answer.value += '5' ">
             <input type="button" value="6" onclick="form1.answer.value += '6' ">
-            <input type="button" value="-" onclick="form1.answer.value += '-' ">
+            <input type="button" value="&#x24;" onclick="form1.answer.value += '&#x24;' ">
+            <input type="button" value="&#8364;" onclick="form1.answer.value += '&#8364;' ">
             <input type="button" value="7" onclick="form1.answer.value += '7' ">
             <input type="button" value="8" onclick="form1.answer.value += '8' ">
             <input type="button" value="9" onclick="form1.answer.value += '9' ">
-            <input type="button" value="*" onclick="form1.answer.value += '*' ">
-            <input type="button" value="/" onclick="form1.answer.value += '/' ">
+            <input type="button" value="&#163;" onclick="form1.answer.value += '&#163;' ">
+            <input type="button" value="&#165;" onclick="form1.answer.value += '&#165;' ">
+            <input type="button" value="->" onclick="form1.answer.value += '->' ">
             <input type="button" value="0" onclick="form1.answer.value += '0' ">
             <input type="button" value="." onclick="form1.answer.value += '.' ">
-            <input type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) ">
+            <input type="button" value="&#8361;" onclick="form1.answer.value += '&#8361;' ">
+            <input type="button" value="&#20803;" onclick="form1.answer.value += '&#20803;' ">
+            <input type="button" value="Convert" onclick="form1.answer.value = ' ' " id="convert">
             <input type="button" value="Clear All" onclick="form1.answer.value = ' ' " id="clear">
         </form>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>

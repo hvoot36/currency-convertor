@@ -1,7 +1,6 @@
 body {
     background-color: #f4f4f6;
     font-family: 'Josefin Sans', sans-serif;
-    /*font-family: 'Libre Baskerville', serif;*/
 }
 
 h1 {
@@ -9,23 +8,34 @@ h1 {
     padding: 23px;
     background-color: #f4f4f6;
     color: #022B3A;
+    font-size: 36pt;
 
 }
 
 #clear {
     width: 300px;
-    border: 2px solid #022B3A;
+    border: 2px solid #24272b;
     border-radius: 20px;
     padding: 20px;
     background-color: #24272b;
-    grid-column: 1 / span 4;
+    grid-column: 3 / span 3;
     color: #FFFFFF;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#convert {
+    width: 200px;
+    border: 2px solid #219ebc;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #219ebc;
+    grid-column: 1 / span 2;
+    color: white;
+}
+
 form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     gap: 15px 15px;
@@ -33,7 +43,7 @@ form {
 
 .formstyle {
     max-width: fit-content;
-    height: 530px;
+    max-height: fit-content;
     margin: auto;
     border: 3px solid #230126;
     border-radius: 30px;
@@ -44,25 +54,25 @@ form {
 
 
 input {
-    width: 20px;
+    width: 75px;
     background-color: #FFFFFF;
     color: #022B3A;
     border: 2px solid #022B3A;
     border-radius: 5px;
     padding: 25px;
     margin: 5px;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
 
 #calc {
-    width: 300px;
+    width: 500px;
     height: 30px;
     border: 2px solid #022B3A;
     border-radius: 20px;
     padding: 20px;
     margin: auto;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 5;
     text-align: right;
 }
