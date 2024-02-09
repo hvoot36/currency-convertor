@@ -8,7 +8,7 @@ h1 {
     padding: 23px;
     background-color: #f4f4f6;
     color: #022B3A;
-    font-size: 36pt;
+    font-size: 40pt;
 
 }
 
@@ -48,7 +48,6 @@ form {
 .formstyle {
     max-width: fit-content;
     max-height: fit-content;
-    margin: auto;
     border: 3px solid #230126;
     border-radius: 30px;
     padding: 35px;
@@ -83,3 +82,43 @@ input {
     justify-self: center;
 }
 
+.main-flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-left: 25px;
+}
+
+h2 {
+    font-size: 30pt;
+    color: #022B3A;
+}
+
+li {
+    color: #022B3A;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+ul {
+    font-size: 18pt;
+    width: 580px;
+    list-style-position: inside;
+    text-align: justify;
+    padding-left: 0px;
+    
+}
+
+a {
+    color: #022B3A;
+}
